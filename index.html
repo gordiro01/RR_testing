@@ -1,0 +1,93 @@
+Riff and Read, by @diana.journaling<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TBR Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Dark background */
+        }
+        .book-card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .book-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 flex flex-col min-h-screen">
+
+    <header class="bg-gray-800 shadow-lg p-6 text-center">
+        <h1 class="text-4xl sm:text-5xl font-bold text-gray-100">Riff and Read TBR</h1>
+        <p class="text-gray-400 mt-2 text-sm sm:text-base">Coleccion de libros a comprar, leer y compartir.</p>
+    </header>
+
+    <main class="container mx-auto p-4 sm:p-6 lg:p-8 flex-grow">
+        <div id="books-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+            <!-- Example Book Card 1 -->
+            <div class="book-card bg-gray-800 rounded-xl shadow-lg overflow-hidden flex flex-col">
+                <img src="https://www.libreriainternacional.com/media/catalog/product/9/7/9788410239142_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=375&width=243&canvas=243:375"
+                     alt="Placeres Mortales - Belen Martinez"
+                     class="w-full h-auto object-cover rounded-t-xl" />
+                <div class="p-6 flex flex-col flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-gray-100">La caída de las brujas (Sangre Oscura 03)</h2>
+                    <p class="text-sm text-gray-400 mb-4">Belen Martinez</p>
+                    <p class="text-purple-300 text-sm flex-grow">Violet Tennyson ha perdido a su familia y llega a la capital acompañada por un extraño Centinela. Allí, la recibe una familia cuyo único propósito es casarla cuando termine el último curso en la prestigiosa Academia Covenant.
+
+Pero mientras sus días transcurren entre clases, uniformes y miradas veladas, su mentira empieza a resquebrajarse. Y no solo porque el idiota de Sid Tennyson parezca empeñado en hacerle la vida imposible.
+
+Violet guarda un secreto. Un secreto que condenó a quien más quería y que la ha llevado hasta la Academia Covenant. Un secreto relacionado con cuatro alumnos que están destinados a convertirse en leyendas.
+
+La cuenta atrás ha empezado. El tiempo se acaba.
+
+Ha llegado la hora del último vals.!</p>
+                    <a href="#" class="mt-4 block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition-colors duration-300">
+                        Purchase Link
+                    </a>
+                </div>
+            </div>
+
+            <!-- Example Book Card 2 -->
+            <div class="book-card bg-gray-800 rounded-xl shadow-lg overflow-hidden flex flex-col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUrpieQjT8uZgWbuOQTKjb2ugyAemi88gipQ&s"
+                     alt="Book Cover Placeholder"
+                     class="w-full h-auto object-cover rounded-t-xl" />
+                <div class="p-6 flex flex-col flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-gray-100">Book Title 2</h2>
+                    <p class="text-sm text-gray-400 mb-4">by Author Name</p>
+                    <p class="text-gray-300 text-sm flex-grow">Another short description. You can adjust the length of this text to fit your needs, and the layout will adapt accordingly.</p>
+                    <a href="#" class="mt-4 block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition-colors duration-300">
+                        Purchase Link
+                    </a>
+                </div>
+            </div>
+
+            <!-- Example Book Card 3 -->
+            <div class="book-card bg-gray-800 rounded-xl shadow-lg overflow-hidden flex flex-col">
+                <img src="https://www.libreriainternacional.com/media/catalog/product/9/7/9798890983657_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=375&width=243&canvas=243:375"
+                     alt="Book Cover Placeholder"
+                     class="w-full h-auto object-cover rounded-t-xl" />
+                <div class="p-6 flex flex-col flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-gray-100">Book Title 3</h2>
+                    <p class="text-sm text-gray-400 mb-4">by Author Name</p>
+                    <p class="text-gray-300 text-sm flex-grow">This card demonstrates how the layout remains consistent even with different text lengths.</p>
+                    <a href="#" class="mt-4 block text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition-colors duration-300">
+                        Purchase Link
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 p-4 mt-8 text-center text-gray-400 text-xs">
+        &copy; 2025 Riff and Read TBR Collection. Derechos reservados.
+    </footer>
+
+</body>
+</html>
